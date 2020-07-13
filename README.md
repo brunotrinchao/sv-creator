@@ -5,7 +5,7 @@ CLI feito para facilitar a geração de components e diretivas
 ## Instalação
 
 ```js
-npm install -g sv-creator
+yarn global add sv-creator
 ```
 
 ### Usando
@@ -16,8 +16,8 @@ sv-creator
 
 #### Opções
 
-- [ ] Componente
-- [ ] Diretiva
+- Componente
+- Diretiva
 
 #### Nome
 
@@ -25,9 +25,9 @@ Informe o nome do componente ou diretiva
 
 #### Tipo (componente)
 
-- [ ] index.vue
-- [ ] index.vue, index.js, index.scss
-- [ ] index.vue, index.js, index.stories.mdx, index.postcss
+- index.vue
+- index.vue, index.js, index.scss
+- index.vue, index.js, index.stories.mdx, index.postcss
 
 _Os arquivos .js .cscc, .mdx e .opstcss terão o mesmo nome do componente_
 
