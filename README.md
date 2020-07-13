@@ -5,7 +5,7 @@ CLI feito para facilitar a geração de components e diretivas
 ## Instalação
 
 ```js
-yarn global add sv-creator
+yarn add sv-creator
 ```
 
 ### Usando
