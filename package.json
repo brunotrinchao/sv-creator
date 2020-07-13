@@ -1,15 +1,25 @@
 {
-  "name": "html-generator-cli",
+  "name": "sv-creator",
   "version": "1.0.0",
-  "description": "",
+  "description": "create directives and components vue",
   "main": "index.js",
+  "homepage": "https://github.com/brunotrinchao/sv-creator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node lib/index.js"
   },
-  "author": "",
+  "files": [
+    "dist"
+  ],
+  "author": "Bruno Trichão <brunotrinchao@gmail.com>",
   "license": "ISC",
-  "bin": "index.js",
+  "bin": {
+    "sv-creator": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunotrinchao/sv-creator.git"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "esm": "^3.2.25",
@@ -18,7 +28,13 @@
     "inquirer": "^7.3.0",
     "mkdirp": "^1.0.4"
   },
-  "devDependencies": {
-    "gulp-babel": "^8.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/brunotrinchao/sv-creator/issues"
+  },
+  "keywords": [
+    "vue",
+    "creator",
+    "directives",
+    "components"
+  ]
 }
