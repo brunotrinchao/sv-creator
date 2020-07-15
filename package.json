@@ -1,6 +1,6 @@
 {
   "name": "sv-creator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "create directives and components vue",
   "main": "index.js",
   "homepage": "https://github.com/brunotrinchao/sv-creator",
@@ -27,7 +27,8 @@
     "figlet": "^1.4.0",
     "fs-extra": "^9.0.1",
     "inquirer": "^7.3.0",
-    "mkdirp": "^1.0.4"
+    "mkdirp": "^1.0.4",
+    "sv-creator": "^1.0.7"
   },
   "bugs": {
     "url": "https://github.com/brunotrinchao/sv-creator/issues"
