@@ -11,7 +11,7 @@ yarn add sv-creator
 ### Usando
 
 ```bash
-sv-creator
+yarn sv-creator
 ```
 
 #### Opções
