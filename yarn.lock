@@ -250,6 +250,18 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+sv-creator@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/sv-creator/-/sv-creator-1.0.7.tgz#bf94878c60ef7508cd5f9ca8a4102781be17b65d"
+  integrity sha512-20vG64tXZDwaPASZfBy9i0e0hXYOOWfEuC/6UjmNYV/uG62a7PxsT6urKeQdWDl6o87/o5lXdp4idUCOzhEa1Q==
+  dependencies:
+    chalk "^4.1.0"
+    esm "^3.2.25"
+    figlet "^1.4.0"
+    fs-extra "^9.0.1"
+    inquirer "^7.3.0"
+    mkdirp "^1.0.4"
+
 through@^2.3.6:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
