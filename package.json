@@ -1,6 +1,6 @@
 {
   "name": "sv-creator",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "create directives and components vue",
   "main": "index.js",
   "homepage": "https://github.com/brunotrinchao/sv-creator",
