@@ -45,6 +45,11 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
+clear@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/clear/-/clear-0.1.0.tgz#b81b1e03437a716984fd7ac97c87d73bdfe7048a"
+  integrity sha512-qMjRnoL+JDPJHeLePZJuao6+8orzHMGP04A8CdwCNsKhRbOnKRjefxONR7bwILT3MHecxKBjHkKL/tkZ8r4Uzw==
+
 cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
@@ -250,22 +255,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-sv-creator@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/sv-creator/-/sv-creator-1.0.7.tgz#bf94878c60ef7508cd5f9ca8a4102781be17b65d"
-  integrity sha512-20vG64tXZDwaPASZfBy9i0e0hXYOOWfEuC/6UjmNYV/uG62a7PxsT6urKeQdWDl6o87/o5lXdp4idUCOzhEa1Q==
-  dependencies:
-    chalk "^4.1.0"
-    esm "^3.2.25"
-    figlet "^1.4.0"
-    fs-extra "^9.0.1"
-    inquirer "^7.3.0"
-    mkdirp "^1.0.4"
-
 sv-creator@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/sv-creator/-/sv-creator-1.0.9.tgz#0eac1fbcf9b3b830cae958a328f721b48ea3e44f"
-  integrity sha512-z1ie/flEA5Uj3odH3IFbL11KdkQvQSuKuuqWRDOgJy0DYZn4ofWNleIi4yhA3yNKqazJPYIkVpt47rnnkVXb7A==
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/sv-creator/-/sv-creator-1.0.17.tgz#8f9a51b9e1ac3e407ef58acdd9cb29c9309d0dc0"
+  integrity sha512-Y+hXYwQucBXUZgbIocN2akNObv4H0guRLdblUcYzFSNgZaAaiiK7igRYHQSfVe6IWFMYYBgEkOXUjO5416frpA==
   dependencies:
     chalk "^4.1.0"
     esm "^3.2.25"
@@ -273,7 +266,7 @@ sv-creator@^1.0.9:
     fs-extra "^9.0.1"
     inquirer "^7.3.0"
     mkdirp "^1.0.4"
-    sv-creator "^1.0.7"
+    sv-creator "^1.0.9"
 
 through@^2.3.6:
   version "2.3.8"
